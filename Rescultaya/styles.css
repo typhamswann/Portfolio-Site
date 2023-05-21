@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Avenir', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+.header {
+    text-align: center;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 5em;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 1.5em;
+    padding-top:2rem;
+}
+
+.arrow {
+    position: absolute;
+    bottom: 20px;
+    cursor: pointer;
+    font-size: 3em;
+    text-decoration: none;
+    color:white;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.row img {
+    margin: 0 10px;
+    width: calc((100% - 40px) / 3);
+    height: auto;
+    object-fit: cover;
+    max-height: 300px;
+}
