@@ -1,0 +1,110 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Avenir', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom:0;
+    margin-bottom:0.4rem;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    text-align: right;
+    padding-right:20rem;
+    margin-bottom: 40px;
+    padding-top:0;
+    margin-top:0;
+}
+
+.secondary-title {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-left:10rem;
+    font-size: 1.8rem;
+    text-align: left; /* Aligns text to the left */
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    width: 200px;
+    height: 65px;
+    margin: 20px auto;
+    background-color: #1D4D99;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center; 
+    line-height: 70px;
+    text-decoration: none;
+}
+
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 20px;
+
+}
+
+.image-caption img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.caption {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#main-img{
+    width: 40rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:1rem;
+}
+
+.body-2{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    font-size: 1.2rem;
+    padding-bottom: 3rem;
+}
+
+.button-outline {
+    display: inline-block;
+    width: 200px;
+    height: 55px;
+    margin: 20px auto;
+    margin-left:15px;
+    background-color: transparent;
+    color: white;
+    border: 5px solid white;
+    border-radius: 0px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center; 
+    line-height: 60px;
+    text-decoration: none;
+}
+
+.arrow {
+    padding-left: 5px;
+}

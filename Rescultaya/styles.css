@@ -13,19 +13,30 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start; /* Change this to flex-start */
     align-items: center;
+    padding-top: 20px; /* Add some top padding */
 }
 
 .header h1 {
     margin: 0;
-    font-size: 5em;
+    font-size: 3.5em;
 }
 
 .header h2 {
     margin: 0;
-    font-size: 1.5em;
-    padding-top:2rem;
+    font-size: 1.3em;
+    padding-top:1rem;
+}
+
+#main-image {
+    max-width: 100%; /* Adjust as needed */
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    object-fit: cover;
+    max-height: 500px;
+   /* padding-top:2rem;*/ /* Added padding */
 }
 
 .arrow {
@@ -61,4 +72,13 @@ a{
     height: auto;
     object-fit: cover;
     max-height: 300px;
+}
+
+.about-section {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 40px;
+    color: white;
+    font-size: 1.2em;
+    line-height: 1.6;
 }
